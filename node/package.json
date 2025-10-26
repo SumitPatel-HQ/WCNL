@@ -1,0 +1,24 @@
+{
+  "name": "node-experiment",
+  "version": "1.0.0",
+  "description": "Node.js File System and Express REST API Experiment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test-api.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest-api",
+    "file-system",
+    "middleware"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
