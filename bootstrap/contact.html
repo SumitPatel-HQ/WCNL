@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Modern Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+      
+      <div class="container-fluid">
+        
+        <a class="navbar-brand fw-bold text-info" href="#">HomePage</a>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+          
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link " href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+      </div> 
+    </nav>
+
+    <!-- Contact Form Section -->
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+
+          <h1 class="display-4 text-center mb-4">Contact Us</h1>
+                    
+              <form action="#">
+                
+               <!-- Name Field -->
+                <div class="mb-4">
+                  <label for="fullName" class="form-label fw-semibold">Name</label>
+                  <input type="text" class="form-control" id="fullName" name="fullName" placeholder="Your name" required>
+                </div>
+
+                <!-- Email Field -->
+                <div class="mb-4">
+                  <label for="email" class="form-label fw-semibold">Email Address</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Your email" required>
+                </div>
+
+                <!-- Message Field -->
+                <div class="mb-4">
+                  <label for="message" class="form-label fw-semibold">Message</label>
+                  <textarea class="form-control" id="message" name="message"  placeholder="Write your message here..." required></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="d-grid gap-2">
+                  <button type="submit" class="btn btn-info btn-lg text-white">Send Message</button>
+                </div>
+                
+              </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
