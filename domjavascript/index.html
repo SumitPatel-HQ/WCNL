@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basics - Experiment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Basics Experiment</h1>
+       
+
+        <div class="section">
+            <h2>1. Variables and Data Types</h2>
+            <button onclick="demonstrateVariables()">Show Variables</button>
+            <button onclick="demonstrateDataTypes()">Show Data Types</button>
+            <div id="variablesOutput" class="output"></div>
+        </div>
+
+        <div class="section">
+            <h2>2. String Functions</h2>
+            <input type="text" id="stringInput" value="Hello JavaScript">
+            <button onclick="stringToUpperCase()">UpperCase</button>
+            <button onclick="stringLength()">Length</button>
+            <button onclick="stringSplit()">Split</button>
+            <div id="stringOutput" class="output"></div>
+        </div>
+
+        <div class="section">
+            <h2>3. Array Functions</h2>
+            <p>Array: [10, 20, 30, 40, 50]</p>
+            <button onclick="arrayPush()">Push</button>
+            <button onclick="arrayPop()">Pop</button>
+            <button onclick="arrayMap()">Map</button>
+            <button onclick="resetArray()">Reset</button>
+            <div id="arrayOutput" class="output"></div>
+        </div>
+
+        <div class="section">
+            <h2>4. Math Functions</h2>
+            <input type="number" id="mathInput1" value="10">
+            <input type="number" id="mathInput2" value="3">
+            <button onclick="mathRandom()">Random</button>
+            <button onclick="mathMax()">Max</button>
+            <button onclick="mathPow()">Power</button>
+            <div id="mathOutput" class="output"></div>
+        </div>
+
+        <div class="section">
+            <h2>5. Conditional Statements</h2>
+            <input type="number" id="conditionInput" value="15">
+            <button onclick="checkEvenOdd()">Even/Odd</button>
+            <button onclick="checkGrade()">Grade</button>
+            <div id="conditionOutput" class="output"></div>
+        </div>
+
+        <div class="section">
+            <h2>6. Loops</h2>
+            <input type="number" id="loopInput" value="5">
+            <button onclick="forLoop()">For Loop</button>
+            <button onclick="whileLoop()">While Loop</button>
+            <div id="loopOutput" class="output"></div>
+        </div>
+
+        <div class="section">
+            <h2>7. Functions</h2>
+            <input type="number" id="funcInput1" value="5">
+            <input type="number" id="funcInput2" value="3">
+            <button onclick="normalFunction()">Add</button>
+            <button onclick="calculateFactorial()">Factorial</button>
+            <div id="functionOutput" class="output"></div>
+        </div>
+
+        <div class="section">
+            <h2>8. DOM Manipulation</h2>
+            <button onclick="createElements()">Create</button>
+            <button onclick="clearDOMDemo()">Clear</button>
+            <div id="domDemo"></div>
+            <div id="domOutput" class="output"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
