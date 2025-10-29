@@ -1,0 +1,33 @@
+% --- Facts ---
+male(husband).
+male(brother).
+male(son).
+
+female(alice).
+female(daughter).
+
+twin(brother, alice).
+twin(son, daughter).
+
+child(son).
+child(daughter).
+
+% --- Rules from question ---
+not_together(husband, alice).   
+
+on_beach(alice, brother).       
+in_bar(husband, daughter).      
+
+victim(brother).               
+innocent(son).                 
+
+younger(alice, brother).        
+alone(daughter).               
+
+% --- Main rule to find killer ---
+killer(X) :-
+    younger(X, Y),
+    victim(Y),
+    on_beach(X, Y),
+    not_together(husband, alice),
+    alone(daughter).
